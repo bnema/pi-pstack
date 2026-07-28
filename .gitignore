@@ -1,0 +1,17 @@
+node_modules/
+
+# Generated runtime and build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Pi session-local files
+.pi/
